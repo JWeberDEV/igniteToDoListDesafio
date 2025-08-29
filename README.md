@@ -1,9 +1,8 @@
 # ✅ Task Manager - React + TypeScript
 
-![React](https://img.shields.io/badge/React-18.0.0-blue)  
-![TypeScript](https://img.shields.io/badge/TypeScript-4.0-blue)  
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)  
-[![Deploy no Vercel](https://vercelbadge.vercel.app/api/seu-usuario/nome-do-repositorio)](https://nome-do-projeto.vercel.app)
+![React](https://img.shields.io/badge/React-19.1.1-blue)  
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)  
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
 
 Um **gerenciador de tarefas simples e funcional** desenvolvido com **React + TypeScript**, focado em boas práticas, componentes reutilizáveis e código limpo.  
 
