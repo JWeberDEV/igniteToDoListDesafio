@@ -21,7 +21,7 @@ Um **gerenciador de tarefas simples e funcional** desenvolvido com **React + Typ
 
 ## 🖼 **Demonstração da Interface**
 > (Adicione um print do projeto aqui)
-![Exemplo da interface](./assets/preview.png)
+![Exemplo da interface](./assets/img/preview.png)
 
 ---
 
@@ -36,6 +36,7 @@ Um **gerenciador de tarefas simples e funcional** desenvolvido com **React + Typ
 
 ## 📂 **Estrutura do Projeto**
 
+```js
 src/
 │
 ├── assets/ # Imagens e ícones estáticos
@@ -60,6 +61,7 @@ src/
 │
 ├── App.tsx # Componente principal
 └── main.tsx # Ponto de entrada da aplicação
+```
 
 ---
 
