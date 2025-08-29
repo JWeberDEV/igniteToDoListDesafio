@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--gray-600);
+}
+
+.container{
+  width: 100%;
+  max-width: 46rem;
+  margin-top: calc(0px - 1.5rem);
+  padding: 0 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.row{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.divider{
+  width: 100%;
+  height: 1px;
+  background: var(--gray-400);
+  margin-top: 1.5rem;
+}
+
+.tasks{
+  margin-top: 4rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.tasks strong{
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.createdTasks{
+  color: var(--blue);
+}
+
+.completedTasks{
+  color: var(--purple);
+}
+
+.tasks span{
+  font-weight: bold;
+  color: var(--white);
+  background: var(--gray-400);
+  padding: 0.35em 0.85em;
+  border-radius: 50rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  width: 1.5rem;
+}
+
+.notasks{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.notasks strong{
+  font-weight: bold;
+  color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 1.375rem;
+}
+
+.notasks span{
+  font-size: 0.875rem;
+  color: var(--gray-300);
+  line-height: 1.125rem;
+}

@@ -1,0 +1,58 @@
+.tasks{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  background: var(--gray-500);
+  padding: 1.5rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+
+}
+
+.input {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.delete {
+  background: transparent;
+  border: none;
+  color: var(--gray-300);
+  cursor: pointer;
+  transition: color 0.2s;
+  margin-left: auto;
+}
+
+.delete:hover {
+  color: var(--red-500);
+  background: transparent;
+}
+
+.circle{
+  color: var(--blue);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.circle:hover {
+  color: var(--blueDark);
+}
+
+.check{
+  color: var(--purple);
+  cursor: pointer;
+  transition: color 0.2s;  
+}
+
+.check:hover {
+  color: var(--purpleDark);
+}
