@@ -20,8 +20,7 @@ Um **gerenciador de tarefas simples e funcional** desenvolvido com **React + Typ
 ---
 
 ## 🖼 **Demonstração da Interface**
-> (Adicione um print do projeto aqui)
-![Exemplo da interface](./assets/img/preview.png)
+![Exemplo da interface](./src/assets/img/preview.png)
 
 ---
 
